@@ -299,11 +299,11 @@ ul, li {
 }
 
 @media (max-width: 1200px) {
-.small-trip__img {
+.planet-img {
     display: none;
 }
 
-.small-trip__info {
+.planet-info {
     max-width: 100%;
     background-color: #5E6170;
     padding: 1rem;
