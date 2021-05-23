@@ -130,7 +130,11 @@ li.menu {
 
 /* Ipad / Iphone size navbar */
 @media (max-width: 1150px) {
-.title, .navbar, .home {
+.title {
+    display: none;
+}
+
+.navbar, .home {
     display: none;
 }
 
@@ -165,7 +169,7 @@ li.menu {
 }
 
 .navbar-small a:hover, .subnav-small:hover .subnavbtn-small {
-    background-color: #AF5344;
+    background-color: #5E6170;
 }
 
 .subnav-content-small {
