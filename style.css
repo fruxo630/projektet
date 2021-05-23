@@ -7,7 +7,7 @@ body {
 }
 
 /* 4k and Computer Navbar */
-@media (max-width: 4000px) and (min-width: 1300px) {
+@media (max-width: 4000px) and (min-width: 1200px) {
 .navbar-small {
     display: none;
 }
@@ -129,7 +129,7 @@ li.menu {
 }
 
 /* Ipad / Iphone size navbar */
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
 .title {
     display: none;
 }
