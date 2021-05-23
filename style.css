@@ -6,8 +6,12 @@ body {
     font-family: Arial, Helvetica, "Helvetica Neue", sans-serif;
 }
 
-/* Navbar */
+/* 4k and Computer Navbar */
 @media (max-width: 4000px) and (min-width: 1150px) {
+.navbar-small {
+    display: none;
+}
+
 li, a, button {
     font-size: 16px;
     color: white;
@@ -122,4 +126,70 @@ li.menu {
 .dwarf-button {
     width: 100px;
 }
+}
+
+/* Ipad / Iphone size navbar */
+@media (max-width: 1150px) {
+.title, .navbar, .home {
+    display: none;
+}
+
+.navbar-small {
+    overflow: hidden;
+    background-color: #514352;
+}
+
+.navbar-small a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.subnav-small {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav-small .subnavbtn-small {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar-small a:hover, .subnav-small:hover .subnavbtn-small {
+    background-color: #AF5344;
+}
+
+.subnav-content-small {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #AF5344;
+    width: 100%;
+    z-index: 1;
+}
+
+.subnav-content-small a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content-small a:hover {
+    background-color: white;
+    color: black;
+}
+
+.subnav-small:hover .subnav-content-small {
+    display: block;
+}
+
 }
