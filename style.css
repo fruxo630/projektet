@@ -266,13 +266,13 @@ ul, li {
     color: black;
 }
 
-.small-trip__img {
+.planet-img {
     max-width: 100%;
     justify-self: center;
     border-radius: 1rem;
 }
 
-.small-trip__info {
+.planet-info {
     max-width: 100%;
     background: #5E6170;
     padding: 1rem;
@@ -280,7 +280,7 @@ ul, li {
     border-radius: 1rem;
 }
 
-.small-trip__info h2 {
+.planet-info h2 {
     margin: 0;
 }
 
