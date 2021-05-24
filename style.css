@@ -234,7 +234,6 @@ footer {
 @media (max-width: 4000px) and (min-width: 1200px) {
 .footer-mini {
     display: none;
-    padding: 10px;
 }
 
 .content-bottom {
@@ -282,6 +281,10 @@ footer {
 @media (max-width: 1200px) {
 .footer-name, .footer-contact, .footer-update {
     display: none;
+}
+
+.footer-mini {
+    padding: 5px;
 }
 
 .planet-img {
