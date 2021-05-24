@@ -232,12 +232,17 @@ footer {
 
 /* --------- CONTENT PAGES --------- */
 @media (max-width: 4000px) and (min-width: 1200px) {
-    .content-bottom {
-        display: grid;
-        grid-template-columns: minmax(300px, 1fr) 1fr;
-        gap: 1rem;
-        padding-bottom: 2rem;
-    }
+.footer-mini {
+    display: none;
+    padding: 10px;
+}
+
+.content-bottom {
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr) 1fr;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
 
 .planet-img {
     width: 500px;
@@ -275,6 +280,10 @@ footer {
 }
 
 @media (max-width: 1200px) {
+.footer-name, .footer-contact, .footer-update {
+    display: none;
+}
+
 .planet-img {
     display: none;
 }
