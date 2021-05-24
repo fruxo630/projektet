@@ -254,6 +254,14 @@ footer {
     border-radius: 1rem;
 }
 
+.first-div {
+    float: left;
+}
+
+.second-div {
+    float: left;
+}
+
 .planet-info h2 {
     margin: 0;
 }
