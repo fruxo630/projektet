@@ -227,53 +227,27 @@ footer {
     text-align: center;
 }
 
-/* --------- STARTPAGE --------- */
+/* --------- CONTENT PAGES --------- */
 @media (max-width: 4000px) and (min-width: 1200px) {
-.content, .destination__holder {
-    display: grid;
-    grid-template-columns: minmax(300px, 1fr) 1fr;
-    gap: 1rem;
-    padding-bottom: 2rem;
-}
-
-.destination__image {
-    width: 100%;
-    border-radius: 1rem;
-}
-
-.destination__header {
-    margin: 0;
-    color: red;
-    font-size: 3rem;
-}
-
-.destination__blurb {
-    margin: 0;
-    color: red;
-}
-
-.destination__holder {
-    display: flex;
-    flex-direction: column;
-}
-
-.destination__info {
-    font-size: 1.1rem;
-}
-
-/* --------- CONTENTPAGE 1 --------- */
-ul, li {
-    color: black;
-}
+    .content, .destination__holder {
+        display: grid;
+        grid-template-columns: minmax(300px, 1fr) 1fr;
+        gap: 1rem;
+        padding-bottom: 2rem;
+    }
 
 .planet-img {
-    max-width: 100%;
+    width: 500px;
+    height: 510px;
     justify-self: center;
     border-radius: 1rem;
+    border: 10px solid #AF5344;
+    object-fit: cover;
 }
 
 .planet-info {
-    max-width: 100%;
+    width: 550px;
+    height: 500px;
     background: #5E6170;
     padding: 1rem;
     color: white;
@@ -284,17 +258,8 @@ ul, li {
     margin: 0;
 }
 
-
-.firstdiv {
-    float: left;
-}
-
-.seconddiv {
-    float: left;
-}
-
 .example {
-    margin: 2rem;
+    margin: 3rem;
 }
 }
 
@@ -316,12 +281,6 @@ ul, li {
 }
 
 .example {
-    margin: 2rem;
+    margin: 3rem;
 }
 }
-
-/* --------- CONTENTPAGE 2 --------- */
-
-/* --------- CONTENTPAGE 3 --------- */
-
-/* --------- CONTENTPAGE 4 --------- */
