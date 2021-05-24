@@ -221,6 +221,9 @@ li.menu {
 
 /* --------- FOOTER --------- */
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     background-color: #514352;
     color: white;
     padding: 2rem;
