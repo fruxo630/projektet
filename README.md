@@ -3,7 +3,6 @@
 Även fast det blev en time-crunch så kändes projektet bra. Varje sida gjorde så som jag ville och jag kunde få css koden att fungera på vardera sida.
 
 ## Navbars
-----
 
 Det svåraste jag tyckte var att göra är de två navbars som jag har använt mig av. Den första vilket är den som man ser om man är på datorn eller på större skärmar behövde jag använda en annan persons kod för att göra. Jag hade idéen på hur jag ville det skulle se ut men det var svårt att få den att bli bra.
 
