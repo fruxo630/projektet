@@ -111,6 +111,8 @@ Det var svårt att få min footer att bli bra. Jag visste att jag kunde använda
 
 Jag använde också en minimerad footer för att kunna göra informationen enklare att se på mindre skärmar just eftersom att flex och space-between hade inte fungerat alls på mobil skärm eller ens en surfplatta.
 
+## Bakgrund och Wrapper
+
 Jag ville kunna använda mig av en liten wrapper runt allt jag hade på sidan, alltså navbar, content och footer eftersom att det skulle göra så att sidan inte blir helt blank så att säga.
 
 ```css
@@ -123,8 +125,6 @@ body {
 ```
 
 Jag använde då denna kod för att lägga till en bakgrund för space under hela min content, och sedan göra så att den blir suddig med backdrop-filter: blur. Resultatet på denna blev väldigt bra och jag är väldigt nöjd med den. Satte också en cover på bakgrunden så att den täcker hela skärmen.
-
-## Wrapper / bakgrund
 
 ```css
 .wrapper {
