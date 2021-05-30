@@ -140,7 +140,7 @@ Jag använde då denna kod för att lägga till en bakgrund för space under hel
 }
 ```
 
-Det bästa med sidan var när jag satte dit en div med klassen för wrapper så att jag kunde lägga till en vit bakgrund i mitten av sidan för att kunna använda space bakgrunden vid sidorna. Grid var en väldigt bra idé här att jag använde, resultatet blev verkligen värt den tiden som jag använde för att koda den.
+Det bästa med sidan var när jag satte dit en div med klassen för wrapper så att jag kunde lägga till en vit bakgrund i mitten av sidan för att kunna använda min rymd bakgrund vid sidorna av den vita bakgrunden. Grid var en väldigt bra idé här att jag använde, resultatet blev verkligen värt den tiden som jag använde för att koda den.
 
 ## Back to Top Button och Javascript
 
